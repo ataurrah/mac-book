@@ -8,6 +8,7 @@
     <title>Document</title>
 
     <!-- bootstrap cdn link -->
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
@@ -20,32 +21,34 @@
             </div>
             <div class="ms-5">
                 <div>
-                    <h1 class="fw-bold">Customize your Blue 24-inch
+                    <h1 class="fw-bold ">Customize your Blue 24-inch
                         iMac with Apple M1 chip
                     </h1>
-                    <article>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores,7-core GPU ,and
+                    <article class="fs-4 my-5">Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores,7-core GPU ,and
                         16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic
                         Mouse Magic Keyboard US English </article>
                 </div>
+
+                <!-- -------button section -------->
                 <div>
-                    <h3 class="fw-bold">Memory</h3>
+                    <h3 class="my-3">Memory</h3>
                     <div class="mb-4">
                         <button id="memory-8gb" class="p-1 me-2 bg-white">8GB unified memory </button>
                         <button id="memory-16gb" class="p-1  bg-white">16GB unified memory </button>
                     </div>
-                    <h3 class="fw-bold">storage</h3>
+                    <h3 class="my-3">Storage</h3>
                     <div class="mb-4">
                         <button id="ssd-256gb" class="p-1 me-2 bg-white"> 256GB SSD storage </button>
                         <button id="ssd-512gb" class="p-1 me-2 bg-white"> 512GB SSD storage</button>
                         <button id="ssd-1tb" class="p-1  bg-white"> 1TB SSD storage</button>
                     </div>
-                    <h3 class="fw-bold">Choose your delivery option</h3>
+                    <h3 class="my-3">Choose your delivery option</h3>
                     <div class="mb-4">
                         <button id="free-cost" class="p-1 me-2 bg-white">friday , Aug 25 FREE prime Delivery </button>
                         <button id="extra-cost" class="p-1  bg-white">friday , Aug 21 Delivery charge $20 </button>
                     </div>
 
-<!----------------------- cost section ---------------------->
+<!----------------------- cost calculate section ---------------------->
 
                     <div class="cart-item my-5">
                         <div class="row">
@@ -80,7 +83,7 @@
         </div>
         <h2 class="text-center pb-5">Total:$ <span id="totalPrice">1299</span> </h2>
     </section>
-
-    <script src="macpro.js"></script>
+<!------------ script section --------------->
+    <script src="mac.js"></script>
 </body>
 </html>

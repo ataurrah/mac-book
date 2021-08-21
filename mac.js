@@ -41,6 +41,7 @@ function updateTotalPrice() {
 
 function memory(space) {
     document.getElementById('memory-' + space).addEventListener('click', function () {
+        
         if (space == '16gb') {
             addExtraCost('memory', 180);
             updateTotalPrice();
